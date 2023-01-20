@@ -1,0 +1,58 @@
+/*
+
+Main scss style sheet
+
+*/
+* {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container--90w {
+  width: 90%;
+}
+
+.container--80w {
+  width: 80%;
+}
+
+.container--70w {
+  width: 70%;
+}
+
+.container--60w {
+  width: 60%;
+}
+
+.container--50w {
+  width: 50%;
+}
+
+.container--40w {
+  width: 40%;
+}
+
+.container--30w {
+  width: 30%;
+}
+
+.container--20w {
+  width: 20%;
+}
+
+.container--10w {
+  width: 10%;
+}
+
+.nav {
+  background-color: gray;
+  padding: 1em 1em 1em 1em;
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
