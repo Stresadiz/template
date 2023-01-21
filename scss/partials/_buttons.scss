@@ -15,3 +15,19 @@
         //transition: 0.7s;
     }
 }
+
+.btn--rectangle{
+    background-color: initial;
+    text-decoration: none;
+    padding: 0.85em 1.7em 0.85em 1.7em;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 100;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    &:hover{
+        color: black;
+        background-color: white;
+        transition: 0.5s;
+    }
+}

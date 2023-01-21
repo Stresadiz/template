@@ -1,15 +1,63 @@
 .banner--main{
-    position: absolute;
-    top: 5em;
+    position: relative;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: inherit;
+    position: absolute;
+    top: 4.8em;
+}
+
+.banner--img{
+    z-index: 0;
+}
+
+.banner--body{  
+    position: absolute;
+    top: 7.8em;
+    z-index: 1000000000;
+    padding: 0 0 0 2em;
     .banner--title{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        h1{
-            color: aqua;
+        color: white;
+        h1{ 
+            font-size: 2.9em;
+            line-height: 1.05em;
+            text-transform: uppercase;
         }
     }
+    .banner--subtitle{
+        color: beige;
+        p{
+            line-height: 2.9em;
+            font-size: smaller;
+            font-weight: 100;
+        }
+    }
+    .banner--btn{
+        padding: 4.2em 2em 3em 0em;
+    }
+}
+
+.banner--deco-top{
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    z-index: 0.3;
+    -webkit-clip-path: polygon(0 0, 100% 0, 45% 100%, 0% 100%);
+    clip-path: polygon(0 0, 40% 0, 25% 100%, 0% 100%);
+    background: rgba(0, 0, 0, 0.582);
+    height: 99.5%;
+    width: 100%;
+}
+.banner--deco-bot{
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    z-index: 0.3;
+    -webkit-clip-path: polygon(0 0, 100% 0, 45% 100%, 0% 100%);
+    clip-path: polygon(0 0, 25% 0, 40% 100%, 0% 100%);
+    background: rgba(0, 0, 0, 0.753);
+    height: 99.5%;
+    width: 100%;
 }
