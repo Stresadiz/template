@@ -4,11 +4,28 @@ Main scss style sheet
 
 */
 *{
-    margin: 0
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
+
+body{
+    background-color: black;
+}
+
+@import 'modules/all';
 
 @import 'partials/containers';
 
+@import 'partials/nav';
+
+@import 'partials/flex';
+
 @import 'partials/buttons';
 
-@import "partials/nav";
+@import 'partials/lists';
+
+@import 'partials/icons';
+
+@import 'partials/banners';
+
+//@import "partials/nav";

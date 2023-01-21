@@ -1,0 +1,17 @@
+.btn{
+    color: initial;
+    text-decoration: none;
+    padding: 2em;
+    text-transform: capitalize;
+    font-size: smaller;
+    font-weight: 100;
+    
+    &:hover{
+        color: red;
+        //background-color: black;
+        //-moz-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
+        //-webkit-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
+        //box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
+        //transition: 0.7s;
+    }
+}
